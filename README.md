@@ -114,7 +114,13 @@ This script offers a comprehensive solution for automating YouTube video uploads
         chmod +x run_youtube_uploader.command
         ./run_youtube_uploader.command
         ```
-    *   **Directly with Python:**
+    *   **On Windows:**
+        Simply double-click the `run_youtube_uploader.bat` file.
+        Alternatively, you can run it from the command prompt:
+        ```batch
+        run_youtube_uploader.bat
+        ```
+    *   **Directly with Python (Cross-platform):**
         ```bash
         python youtube_uploader.py
         ```
@@ -126,6 +132,7 @@ This script offers a comprehensive solution for automating YouTube video uploads
 
 *   `youtube_uploader.py`: The main Python script for handling video uploads.
 *   `run_youtube_uploader.command`: A shell script to execute the uploader on macOS.
+*   `run_youtube_uploader.bat`: A batch script to execute the uploader on Windows.
 *   `video_metadata.csv` (Example or Template): A CSV file to input video details. (This file itself might be in `.gitignore` if it contains specific video data, but a template or example should be versioned).
 *   `.gitignore`: Specifies intentionally untracked files that Git should ignore.
 *   `README.md`: This file.
