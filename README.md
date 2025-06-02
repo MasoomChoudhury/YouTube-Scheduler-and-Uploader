@@ -49,11 +49,10 @@ This script offers a comprehensive solution for automating YouTube video uploads
 
 ## Setup Instructions
 
-1.  **Clone the repository (or set up your project files):**
+1.  **Clone the repository:**
     ```bash
-    # If you're using Git
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/MasoomChoudhury/YouTube-Scheduler-and-Uploader.git
+    cd YouTube-Scheduler-and-Uploader
     ```
 
 2.  **Install Dependencies:**
